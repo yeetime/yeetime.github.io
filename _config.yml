@@ -104,5 +104,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:yeetime/yeetime.github.io.git
+  repo:
+    github: git@github.com:yeetime/yeetime.github.io.git
+    coding: git@e.coding.net:voe/hexo/hexo.git
   branch: master
