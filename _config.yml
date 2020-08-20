@@ -1,25 +1,25 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
+## Docs: https://hexo.io/docs/configuration.html https://hexo.io/zh-cn/docs/configuration
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yeetime`s Blog #网站标题
-subtitle: 'proud walk alone'#网站副标题
-description: ''
-keywords:
-author: Yeetime #作者名字
-language: zh-CN #本地化
-timezone: ''
+title: Yeetime`s Blog # 网站标题
+subtitle: 'proud walk alone'# 网站副标题
+description: '' # 网站描述
+keywords: # 网站的关键词。支援多个关键词。
+author: Yeetime # 作者名字
+language: zh-CN # 本地化
+timezone: 'Asia/Shanghai' # 网站时区。Hexo 默认使用您电脑的时区。
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+url: http://yoursite.com # 网址
+root: / # 网站根目录
+permalink: :year/:month/:day/:title/ # 文章的永久链接格式
+permalink_defaults: # 永久链接中各部分的默认值
+pretty_urls: # 改写 permalink 的值来美化 URL
+  trailing_index: true # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
+  trailing_html: true # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
 
 # Directory
 source_dir: source
