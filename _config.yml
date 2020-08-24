@@ -13,9 +13,12 @@ timezone: 'Asia/Shanghai' # 网站时区。Hexo 默认使用您电脑的时区�
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com # 网址
+url: http://yeetime.top # 网址
 root: / # 网站根目录
-permalink: :year/:month/:day/:title/ # 文章的永久链接格式
+permalink: posts/:abbrlink.html # 文章的永久链接格式 :year/:month/:day/:title/
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 permalink_defaults: # 永久链接中各部分的默认值
 pretty_urls: # 改写 permalink 的值来美化 URL
   trailing_index: true # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
