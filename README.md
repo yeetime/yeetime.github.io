@@ -8,6 +8,8 @@ Hexo 备份命令：
 git add .
 git commit -m "Hexo backup"
 git push origin hexo
+
+git add . && git commit -m "Hexo backup" && git push origin hexo
 ```
 
 Hexo 发布命令：
